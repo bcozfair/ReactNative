@@ -6,6 +6,15 @@ export default function Index() {
     <ScrollView style={{ margin: 20 }} >
       <View style={styles.container}>
 
+        <Link href="/location-quiz" style={styles.link}>
+          <Text style={styles.linkText}>Location Quiz</Text>
+        </Link>
+
+        <Link href="/location" style={styles.link}>
+          <Text style={styles.linkText}>Location</Text>
+        </Link>
+
+
         <Link href="/page2" style={styles.link}>
           <Text style={styles.linkText}>ไปหน้าที่ 2</Text>
         </Link>
