@@ -6,6 +6,14 @@ export default function Index() {
     <ScrollView style={{ margin: 20 }} >
       <View style={styles.container}>
 
+        <Link href="/charmander" style={styles.link}>
+          <Text style={styles.linkText}>Pokemon</Text>
+        </Link>
+
+        <Link href="/ant" style={styles.link}>
+          <Text style={styles.linkText}>Hero</Text>
+        </Link>
+
         <Link href="/location-quiz" style={styles.link}>
           <Text style={styles.linkText}>Location Quiz</Text>
         </Link>
