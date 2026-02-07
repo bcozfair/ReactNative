@@ -6,6 +6,10 @@ export default function Index() {
     <ScrollView style={{ margin: 20 }} >
       <View style={styles.container}>
 
+        <Link href="/book-online" style={styles.link}>
+          <Text style={styles.linkText}>Book Online</Text>
+        </Link>
+
         <Link href="/book" style={styles.link}>
           <Text style={styles.linkText}>Book</Text>
         </Link>
